@@ -4,13 +4,13 @@ class A{
         System.err.println("I am Parent :");
     }
 }
-class B extends A{ // <--  First Child Extends Parents Property 
+class B extends A{ // First Child Extends Parents Property 
 
     public void Child1(){
         System.err.println("First Child");
     }
 }
-class C extends A{  // <--  second Child Also extends Parents Property 
+class C extends A{  // second Child Also extends Parents Property 
 
     public void Child2(){
         System.err.println("Second Child ");
